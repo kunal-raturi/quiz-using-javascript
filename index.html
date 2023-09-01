@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="alert">
+      <div class="alert-title">Congratulations!!</div>
+    </div>
+    <form id="quiz-form">
+      <ol>
+        <li class="question-item">
+          <div>
+            What does this code return? (<code>0 || '' || false || "hi"</code>)
+          </div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code>0</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="true"
+                  />
+                  <code>"hi"</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code>"false"</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-1"
+                    value="false"
+                  />
+                  <code>''</code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li class="question-item">
+          <div>What is it called when a function calls itself?</div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="false"
+                  />
+                  inception
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="true"
+                  />
+                  recursion
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="false"
+                  />
+                  self-referential
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-2"
+                    value="false"
+                  />
+                  none
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+        <li class="question-item">
+          <div>
+            What will be the result of the following JavaScript expression?
+            (<code>5 + "5"</code>)
+          </div>
+          <div>
+            <ol>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="true"
+                  />
+                  <code>'55'</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="false"
+                  />
+                  <code>'10'</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="false"
+                  />
+                  <code>'error'</code>
+                </label>
+              </li>
+              <li class="answer-item">
+                <label>
+                  <input
+                    class="answer"
+                    type="radio"
+                    name="answer-3"
+                    value="false"
+                  />
+                  <code>'NaN'</code>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </li>
+      </ol>
+      <button type="submit">Check</button>
+    </form>
+    <script defer src="script.js"></script>
+  </body>
+</html>

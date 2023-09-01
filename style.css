@@ -1,0 +1,51 @@
+/* Style for the alert message */
+#alert {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#alert.active {
+  display: block;
+}
+
+/* Style for the question items */
+.question-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.question-item.correct {
+  border-color: #4caf50; /* Green border for correct answers */
+}
+
+.question-item.incorrect {
+  border-color: #f44336; /* Red border for incorrect answers */
+}
+
+/* Style for the answer choices */
+.answer-item {
+  margin: 5px 0;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add some spacing between questions */
+.question-item:not(:last-child) {
+  margin-bottom: 30px;
+}
